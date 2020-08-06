@@ -19,7 +19,6 @@ dependencies {
 			"com.squareup.retrofit2:retrofit-mock:2.7.0",
 			"org.springframework.cloud:spring-cloud-starter-aws-messaging"
 			)
-	protobuf("org.coursera:protos-sampleuser:$serviceDefinitionsLibraryVersion")
 	testImplementation(
 			"org.coursera:shared-java-application-libraries-core-test:$sharedJavaApplicationLibraryVersion")
 	testImplementation (

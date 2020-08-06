@@ -42,6 +42,8 @@ dependencies {
     testImplementation 'junit:junit:4.13'
 }
 
+//apply from: "dependencies.gradle"
+
 application {
     // Define the main class for the application.
     mainClassName = 'renovate.playground.App'
