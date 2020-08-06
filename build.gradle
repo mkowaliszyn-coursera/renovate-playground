@@ -21,9 +21,9 @@ buildscript {
     // by the build script itself, and should not be confused with listing the
     // set of dependencies used by the Java application, such as Java
     // libraries.
-    dependencies {
-        classpath "org.coursera:shared-java-application-libraries-gradle-buildtools-plugin:153.0.0"
-    }
+//    dependencies {
+//        classpath "org.coursera:shared-java-application-libraries-gradle-buildtools-plugin:153.0.0"
+//    }
 }
 
 plugins {
@@ -34,10 +34,10 @@ plugins {
     id 'application'
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_14
-    targetCompatibility = JavaVersion.VERSION_14
-}
+//java {
+//    sourceCompatibility = JavaVersion.VERSION_14
+//    targetCompatibility = JavaVersion.VERSION_14
+//}
 
 dependencies {
     // This dependency is used by the application.
