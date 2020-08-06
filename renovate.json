@@ -3,7 +3,7 @@
   "assigneesFromCodeOwners": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": true,
-  "dependencyDashboardAutoclose": false
+  "dependencyDashboardAutoclose": false,
   "packageRules": [
       "packageNames": ["com.zaxxer:HikariCP"],
       "allowedVersions": "=3.4.5"
