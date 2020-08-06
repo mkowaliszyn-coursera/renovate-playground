@@ -23,6 +23,12 @@ buildscript {
         classpath "org.coursera:shared-java-application-libraries-gradle-buildtools-plugin:153.0.0"
     }
 }
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_14
+    targetCompatibility = JavaVersion.VERSION_14
+}
+
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
