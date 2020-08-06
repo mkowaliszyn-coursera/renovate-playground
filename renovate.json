@@ -5,7 +5,7 @@
   "dependencyDashboardApproval": true,
   "dependencyDashboardAutoclose": false,
   "fileMatch": [
-    "*.gradle"
+    ".*\\.gradle"
   ],
   "packageRules": [
     { 
