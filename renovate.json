@@ -4,6 +4,9 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": true,
   "dependencyDashboardAutoclose": false,
+  "fileMatch": [
+    "*.gradle"
+  ],
   "packageRules": [
     { 
       "packageNames": ["com.zaxxer:HikariCP"],
