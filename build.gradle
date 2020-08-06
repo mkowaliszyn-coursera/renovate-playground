@@ -1,3 +1,5 @@
+import org.gradle.api.JavaVersion
+
 buildscript {
     // This is the set of sources where we resolve plugins for the build. This
     // should not be confused with where we source libraries used for the Java
@@ -24,17 +26,17 @@ buildscript {
     }
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_14
-    targetCompatibility = JavaVersion.VERSION_14
-}
-
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
 
     // Apply the application plugin to add support for building a CLI application.
     id 'application'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_14
+    targetCompatibility = JavaVersion.VERSION_14
 }
 
 dependencies {
