@@ -1,3 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "assigneesFromCodeOwners": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": true,
+  "dependencyDashboardAutoclose": false,
+  "packageRules": [
+  ]
 }
