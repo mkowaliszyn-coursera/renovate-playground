@@ -1,7 +1,7 @@
 // This file is sourced by the `org.coursera.buildtools` plugin as to apply
 // dependencies for the Java application.
 
-final def sharedJavaApplicationLibraryVersion = '153.0.0'
+final def sharedJavaApplicationLibraryVersion = '150.0.0'
 final def serviceDefinitionsLibraryVersion = '2.20.0'
 final def mapStructVersion = '1.3.1.Final'
 final def resilience4jVersion = '1.2.0'
