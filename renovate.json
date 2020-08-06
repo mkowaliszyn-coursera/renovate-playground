@@ -4,4 +4,8 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": true,
   "dependencyDashboardAutoclose": false
+  "packageRules": [
+      "packageNames": ["com.zaxxer:HikariCP"],
+      "allowedVersions": "=3.4.5"
+  ]
 }
